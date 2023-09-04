@@ -1,0 +1,57 @@
+# Unity-specific ignores
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Exclude all asset store tools plugins
+/[Aa]ssets/AssetStoreTools*
+
+# Exclude JetBrains Rider auto-generated plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Exclude Visual Studio cache directory
+.vscode/
+
+# Exclude generated Unity3D meta files for user-specific settings
+*.sln.meta
+*.csproj.meta
+*.unityproj.meta
+
+# Exclude macOS .DS_Store files
+.DS_Store
